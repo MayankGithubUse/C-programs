@@ -1,0 +1,19 @@
+//c program to add tow number.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  //varible for the program
+  int first,second;
+  int answer;
+
+  //taking input for the program
+  printf("Enter the number: ");
+  scanf("%d%d",&first,&second);
+
+  //processing for the program
+  answer=first+second;
+
+  //printing the number
+  printf("The answer: %d",answer);
+}
