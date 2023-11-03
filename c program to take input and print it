@@ -1,0 +1,18 @@
+//c program to take input and print it
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  //for taking input we will declare some varible
+  int n;
+  
+  //taking input from the user
+  printf("Enter the number: ");
+  scanf("%d",&n);
+
+  //printing the number
+  printf("You have entered %d",n);
+  
+  //the code end here
+getch();
+}
